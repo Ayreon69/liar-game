@@ -2,6 +2,8 @@
 
 **Vote en secret. Seuls les moins nombreux survivent.**
 
+👉 **Jouer : https://liar-game-nh9k.onrender.com** (la première ouverture peut prendre jusqu'à une minute, le temps que le serveur gratuit se réveille)
+
 Jeu multijoueur en ligne de négociation et de trahison, à jouer entre amis depuis un navigateur, sur téléphone ou ordinateur, sans compte ni installation.
 D'après le jeu de la minorité du manga *Liar Game* de Shinobu Kaitani (projet de fans, non officiel, avec ses propres visuels).
 
