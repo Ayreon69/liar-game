@@ -1,0 +1,11 @@
+{
+  "name": "Liar Game",
+  "short_name": "Liar Game",
+  "description": "Vote en secret. Seuls les moins nombreux survivent.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#efe9dc",
+  "theme_color": "#efe9dc",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
