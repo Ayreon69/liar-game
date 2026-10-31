@@ -1,6 +1,6 @@
 // Accueil : la foule qui fond à chaque vote, pseudo + masque, créer / rejoindre une table, entraînement, règles.
 import { motion } from 'framer-motion';
-import { BookOpen, Bot, LogIn, Plus } from 'lucide-react';
+import { BookOpen, Bot, House, LogIn, Plus } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { AVATARS } from '../../../shared/protocol';
 import { MASK_LABELS, Mask } from '../components/Mask';
@@ -66,6 +66,9 @@ export function Home() {
 
   return (
     <main className="paper home">
+      <a className="all-games" href="https://akhis-games.onrender.com">
+        <House size={16} aria-hidden /> Tous les jeux
+      </a>
       <header className="home-hero">
         <p className="dossier">Convocation · Séance à huis clos</p>
         <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>

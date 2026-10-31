@@ -1462,3 +1462,23 @@ button:disabled {
     transition: none;
   }
 }
+
+/* Lien vers la page qui liste tous les jeux : une ligne de l'accueil, jamais par-dessus le titre */
+.all-games {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  min-height: 40px;
+  color: var(--ink-2);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  justify-self: start;
+  margin: -0.8rem 0 -0.7rem;
+}
+.all-games:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
